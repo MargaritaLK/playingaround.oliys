@@ -5,7 +5,7 @@ function Header() {
   return (
     <div className='header'>
       <div className='header-item'>examples</div>
-      <div className='header-item'>playing around</div>
+      <div className='header-item'>code challanges </div>
     </div>
   )
 }
