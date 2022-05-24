@@ -19,7 +19,7 @@ root.render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />} />
-      <Route path="codechallenges" element={<CodeChallenges />} />
+      <Route path="/codechallenges" element={<CodeChallenges />} />
     </Routes>
   </BrowserRouter>
 )
