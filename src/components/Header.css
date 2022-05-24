@@ -11,3 +11,8 @@
 .header-item {
   padding: 1em;
 }
+
+#linkstyle {
+  text-decoration: none;
+  color: white;
+}

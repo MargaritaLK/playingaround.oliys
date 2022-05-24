@@ -2,16 +2,34 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import Header from './Header';
+import CodeChallenges from "./routes/codechallenges";
+
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+} from "react-router-dom";
 
 
 
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
-
-root.render(
-  <React.StrictMode>
-    <Header />
-    <App />
-  </React.StrictMode>
+const root = ReactDOM.createRoot(
+  document.getElementById("root")
 );
+root.render(
+  <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<App />} />
+      <Route path="codechallenges" element={<CodeChallenges />} />
+    </Routes>
+  </BrowserRouter>
+)
+
+
+
+// const root = ReactDOM.createRoot(document.getElementById('root'));
+
+// root.render(
+//   <React.StrictMode>
+//     <App />
+//   </React.StrictMode>
+// );
