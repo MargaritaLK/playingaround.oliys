@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/playingaround.oliys/static/css/main.03d874ad.css",
+    "main.js": "/playingaround.oliys/static/js/main.998f3991.js",
+    "index.html": "/playingaround.oliys/index.html",
+    "main.03d874ad.css.map": "/playingaround.oliys/static/css/main.03d874ad.css.map",
+    "main.998f3991.js.map": "/playingaround.oliys/static/js/main.998f3991.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.03d874ad.css",
+    "static/js/main.998f3991.js"
+  ]
+}
