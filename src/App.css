@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+  align-items: center;
+  margin-top: 20vh;
+
+}
+
+.maintitle  {
+  color: #edf2f4;
+  font-size: 30px;
+  font-weight: 400;
+  margin: 30px;
+}
