@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <Header/>
       <div className="maintitle">
-          <div>.test app.</div>
+          <div>.test app..</div>
       </div>
     </div>
   );
