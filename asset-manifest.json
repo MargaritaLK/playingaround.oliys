@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/playingaround.oliys/static/css/main.f21d557c.css",
-    "main.js": "/playingaround.oliys/static/js/main.2783f57b.js",
+    "main.js": "/playingaround.oliys/static/js/main.14bfb1ce.js",
     "index.html": "/playingaround.oliys/index.html",
     "main.f21d557c.css.map": "/playingaround.oliys/static/css/main.f21d557c.css.map",
-    "main.2783f57b.js.map": "/playingaround.oliys/static/js/main.2783f57b.js.map"
+    "main.14bfb1ce.js.map": "/playingaround.oliys/static/js/main.14bfb1ce.js.map"
   },
   "entrypoints": [
     "static/css/main.f21d557c.css",
-    "static/js/main.2783f57b.js"
+    "static/js/main.14bfb1ce.js"
   ]
 }
