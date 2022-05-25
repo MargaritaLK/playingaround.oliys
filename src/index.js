@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import CodeChallenges from "./pages/Codechallenges";
 import About from "./pages/About";
+import Rain from "./codechallanges/Rain";
 
 import {
   BrowserRouter,
@@ -22,6 +23,7 @@ root.render(
       <Route path="/" element={<App />} />
       <Route path="/codechallenges" element={<CodeChallenges />} />
       <Route path="/about" element={<About />} />
+      <Route path="/rain" element={<Rain />} />
     </Routes>
   </BrowserRouter>
 )

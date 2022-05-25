@@ -1,8 +1,8 @@
 .header {
   width: 100vw;
-  height: 10vh;
+  height: 8vh;
   display: flex;
-  margin: 5vh 10vw;
+  margin: 5%;
 }
 
 .header-item {

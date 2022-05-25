@@ -35,14 +35,3 @@ function CodeChallenges() {
 
 
     export default CodeChallenges
-
-
-
-
-    // function Home() {
-    //   return (
-    //     <div className='header-item'>
-    //       <Link id='linkstyle' to="/">home</Link>
-    //     </div>
-    //   )
-    // }
