@@ -5,11 +5,21 @@ import { Link } from "react-router-dom";
 function Header() {
   return (
     <div className='header'>
+      <Home />
       <About/>
       <CodeChallenges />
     </div>
   )
 }
+
+function Home() {
+  return (
+    <div className='header-item'>
+      <Link id='linkstyle' to="/">home</Link>
+    </div>
+  )
+}
+
 
 function About() {
   return (

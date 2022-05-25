@@ -16,20 +16,10 @@ const root = ReactDOM.createRoot(
   document.getElementById("root")
 );
 root.render(
-  <BrowserRouter>
+  <BrowserRouter basename={window.location.pathname || ''}>
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="/codechallenges" element={<CodeChallenges />} />
     </Routes>
   </BrowserRouter>
 )
-
-
-
-// const root = ReactDOM.createRoot(document.getElementById('root'));
-
-// root.render(
-//   <React.StrictMode>
-//     <App />
-//   </React.StrictMode>
-// );
