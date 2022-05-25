@@ -1,16 +1,10 @@
 .header {
   width: 100vw;
   height: 10vh;
-  font-size: 14px;
   display: flex;
   margin: 5vh 10vw;
 }
 
 .header-item {
-  padding: 1em;
-}
-
-#linkstyle {
-  text-decoration: none;
-  color: white;
+  padding: 1em 1em 1em 0;
 }

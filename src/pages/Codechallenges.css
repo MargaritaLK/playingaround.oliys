@@ -1,0 +1,18 @@
+
+.list-challenges {
+  font-size: 0.9em;
+}
+
+
+
+.list-challenges-title {
+text-decoration: underline;
+padding: 0 0 1em 0 ;
+
+
+}
+
+
+.list-challenges-item {
+  padding: 0.5em 0;
+}

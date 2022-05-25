@@ -18,7 +18,7 @@ function About() {
 function AboutText() {
   return (
     <div className='abouttext'>
-      <div>.oliys. art</div>
+      <div>.oliys.</div>
       This webpages is a
       collection of my tests with visuals, playing around, code challenges.
     </div>
