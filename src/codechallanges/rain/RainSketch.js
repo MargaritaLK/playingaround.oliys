@@ -19,7 +19,7 @@ function RainSketch(p5) {
       drops[i] = new Drop();
     }
     for (let i = 0; i < nrdrops / 2; i++) {
-      splashdrops[i] = new Drop();
+      splashdrops[i] = new Drop(p5);
     }
 
   };

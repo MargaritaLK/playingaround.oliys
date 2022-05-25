@@ -5,7 +5,7 @@ function RainDrops(p5) {
 
 class Drop extends React.Component  {
 
-  constructor() {
+  constructor(p5) {
     this.x = p5.p5.random(-p5.width / 2, p5.width / 2);
     this.y = p5.random(-p5.height / 2, p5.height / 2);
     this.color = p5.color('#5c6270');
