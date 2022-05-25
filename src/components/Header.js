@@ -12,6 +12,7 @@ function Header() {
   )
 }
 
+
 function Home() {
   return (
     <div className='header-item'>
@@ -24,12 +25,10 @@ function Home() {
 function About() {
   return (
     <div className='header-item'>
-      <Link id='linkstyle' to="/">about</Link>
+      <Link id='linkstyle' to="/about">about</Link>
     </div>
   )
 }
-
-
 
 
 function CodeChallenges () {
@@ -39,8 +38,6 @@ function CodeChallenges () {
     </div>
   )
 }
-
-
 
 
 

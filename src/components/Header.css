@@ -1,9 +1,7 @@
 .header {
   width: 100vw;
   height: 10vh;
-  color: white;
   font-size: 14px;
-  font-weight: 100;
   display: flex;
   margin: 5vh 10vw;
 }
