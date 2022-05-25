@@ -4,7 +4,8 @@ import './index.css';
 import App from './App';
 import CodeChallenges from "./pages/Codechallenges";
 import About from "./pages/About";
-import Rain from "./codechallanges/Rain";
+import Rain from "./codechallanges/rain/Rain";
+
 
 import {
   BrowserRouter,
