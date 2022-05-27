@@ -1,81 +1,63 @@
-import Drop from './drop';
+import React from "react";
+import Sketch from "react-p5";
+import { Drop } from "./Drop"
 
-var drops = [];
+import sea from './sea_dark.jpg';
+
+
+
+
 let nrdrops = 1000;
-let testrdop;
-let splashdrops = []
+let drops = [];
+let splashdrops = [];
 let bg;
 
 
+export default (props) => {
 
-function RainSketch(p5) {
 
-  p5.setup = function () {
-    // bg = p5.loadImage('sea_dark.jpg')
-    p5.createCanvas(1000, 800);
-    p5.background('#495057');
+  const setup = (p5, canvasParentRef) => {
+    // use parent to render the canvas in this ref
+    // (without that p5 will render the canvas outside of your component)
+    p5.createCanvas(900, 600).parent(canvasParentRef);
+    // bg = p5.loadImage('../inages/sea_dark.jpg')
+    bg = p5.loadImage(sea)
+
+
+   console.log(bg);
 
     for (let i = 0; i < nrdrops; i++) {
-      drops[i] = new Drop();
+      drops[i] = new Drop(p5);
     }
+
     for (let i = 0; i < nrdrops / 2; i++) {
       splashdrops[i] = new Drop(p5);
     }
 
   };
 
-  p5.draw = function () {
-    // p5.background('#003049');
+  const draw = (p5) => {
+    p5.background('#293241')
+    p5.background(bg)
     p5.translate(p5.width / 2, p5.height / 2);
-    p5.fill('#c1121f')
-    p5.ellipse(0, 0, 10, 10)
-    // for (let i = 0; i < nrdrops; i++) {
-    //     drops[i].show();
-    //     // drops[i].atsea();
-    //     // drops[i].fall();
-    //   }
 
+    for (let i = 0; i < nrdrops; i++) {
+      drops[i].show(p5)
+      drops[i].fall(p5)
+      drops[i].atsea(p5)
+    }
+
+    for (let i = 0; i < nrdrops / 2; i++) {
+      splashdrops[i].show(p5)
+      splashdrops[i].fall(p5)
+      splashdrops[i].atsea(p5)
+      splashdrops[i].splash(p5)
+    }
+
+    // p5.noLoop()
   };
-}
 
 
-// function RainSketch(p5) {
 
-
-//   p5.setup = function () {
-//     // bg = p5.loadImage('sea_dark.jpg')
-//     p5.createCanvas(1000, 800);
-//     // p5.background('#495057');
-
-//     // for (let i = 0; i < nrdrops; i++) {
-//     //   drops[i] = new Drop();
-//     // }
-//     // for (let i = 0; i < nrdrops / 2; i++) {
-//     //   splashdrops[i] = new Drop();
-//     // }
-
-//   };
-
-//   p5.draw = function () {
-//     // p5.background(bg);
-//     p5.background(200);
-//     // p5.translate(p5.width / 2, p5.height / 2);
-//     //   for (let i = 0; i < nrdrops; i++) {
-//     //     drops[i].show();
-//     //     drops[i].atsea();
-//     //     drops[i].fall();
-//     //   }
-//     //   for (let i = 0; i < nrdrops / 2; i++) {
-//     //     drops[i].show();
-//     //     drops[i].atsea();
-//     //     drops[i].splash();
-//     //     drops[i].fall();
-//     //   }
-
-//   };
-
-
-// }
-
-
-export default RainSketch;
+  return <Sketch setup={setup} draw={draw} />;
+};

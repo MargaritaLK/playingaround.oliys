@@ -2,8 +2,7 @@
 import Header from '../../components/Header';
 import CalmBG from '../../components/CalmBG';
 import './Rain.css';
-import { ReactP5Wrapper } from "react-p5-wrapper";
-import RainSketch from './RainSketch'
+import Sketch from './RainSketch'
 
 
 
@@ -12,7 +11,7 @@ function Rain() {
     <div>
       <Header />
       <div className='calm-brackground'>
-        <ReactP5Wrapper sketch={RainSketch} />
+        <Sketch />
       </div>
 
     </div>
