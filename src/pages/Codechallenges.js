@@ -21,15 +21,17 @@ function CodeChallenges() {
         <div className='list-challenges'>
 
           <div className='list-challenges-title'>my coding challenges from &nbsp;
-            <a id='linkstyle-italic' href="https://thecodingtrain.com/" target="_blank">TheCodingTrain.com</a> </div>
+            <a id='linkstyle-italic' href="https://thecodingtrain.com/" target="_blank">ThegsCodingTrain.com</a> </div>
+
+
+          <div className='list-challenges-item'>
+            <Link id='linkstyle' to="./dragforce"> - dragforce</Link>
+          </div>
 
           <div className='list-challenges-item'>
             <Link id= 'linkstyle' to="./rain"> - rain</Link>
           </div>
 
-          <div className='list-challenges-item'>
-            <Link id='linkstyle' to="./dragforce"> - dragforce</Link>
-          </div>
 
         </div>
       </div>
