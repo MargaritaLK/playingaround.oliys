@@ -41,18 +41,17 @@ export default (props) => {
         p.random(10, 160));
     }
 
-
-
-
   };
 
 
 
   const draw = (p) => {
-    p.background('#495057')
+    p.background('#343a40')
 
     // water
-    p.fill('#005f73')
+    // p.fill('#005f73')
+    p.fill('#354f52')
+
     p.noStroke()
     p.rect(0, p.height / 2, p.width, p.height / 2)
 

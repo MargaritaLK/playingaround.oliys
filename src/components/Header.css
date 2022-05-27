@@ -2,8 +2,8 @@
   width: 100vw;
   height: 8vh;
   display: flex;
-  padding: 2% 5%;
-  background-color: #2f3e46;
+  padding: 2% 10vw;
+  background-color: #354f52;
 }
 
 .header-item {
