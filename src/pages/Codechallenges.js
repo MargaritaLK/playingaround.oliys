@@ -24,11 +24,11 @@ function CodeChallenges() {
             <a id='linkstyle-italic' href="https://thecodingtrain.com/" target="_blank">The Coding Train.com</a> </div>
 
           <div className='list-challenges-item'>
-            <Link id= 'linkstyle' to="/rain"> - rain with p5js</Link>
+            <Link id= 'linkstyle' to="./rain"> - rain with p5js</Link>
           </div>
 
           <div className='list-challenges-item'>
-            <Link id='linkstyle' to="/dragforce"> - dragforce</Link>
+            <Link id='linkstyle' to="./dragforce"> - dragforce</Link>
           </div>
 
         </div>

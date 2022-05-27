@@ -26,8 +26,8 @@ root.render(
       <Route path="/" element={<App />} />
       <Route path="/codechallenges" element={<CodeChallenges />} />
       <Route path="/about" element={<About />} />
-      <Route path="/rain" element={<Rain />} />
-      <Route path="/dragforce" element={<Dragforce />} />
+      <Route path="/codechallenges/rain" element={<Rain />} />
+      <Route path="//codechallenges/dragforce" element={<Dragforce />} />
     </Routes>
   </BrowserRouter>
 )
