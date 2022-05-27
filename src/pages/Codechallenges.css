@@ -10,11 +10,12 @@
 padding: 0 0 1em 0 ;
 border-bottom: 1.2px solid white;
 width: 60%;
+margin: 0 0 2em 0;
 
 
 }
 
 
 .list-challenges-item {
-  padding: 1em 0;
+  padding: 0.4em 0;
 }
