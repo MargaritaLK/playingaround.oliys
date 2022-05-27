@@ -21,7 +21,7 @@ function CodeChallenges() {
         <div className='list-challenges'>
 
           <div className='list-challenges-title'>my coding challenges from &nbsp;
-            <a id='linkstyle-italic' href="https://thecodingtrain.com/" target="_blank">The Coding Train.com</a> </div>
+            <a id='linkstyle-italic' href="https://thecodingtrain.com/" target="_blank">TheCodingTrain.com</a> </div>
 
           <div className='list-challenges-item'>
             <Link id= 'linkstyle' to="./rain"> - rain</Link>
