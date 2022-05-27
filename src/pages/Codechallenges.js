@@ -24,7 +24,7 @@ function CodeChallenges() {
             <a id='linkstyle-italic' href="https://thecodingtrain.com/" target="_blank">The Coding Train.com</a> </div>
 
           <div className='list-challenges-item'>
-            <Link id= 'linkstyle' to="./rain"> - rain with p5js</Link>
+            <Link id= 'linkstyle' to="./rain"> - rain</Link>
           </div>
 
           <div className='list-challenges-item'>
