@@ -27,7 +27,8 @@ export default (props) => {
         p.random(p.width),
         p.random(p.height / 2),
         p.random(smallestDrip, lagerstDrip),
-        '#61a5c2',
+        // '#61a5c2',
+        '#cad2c5',
         p.random(20, 100));
     }
 
