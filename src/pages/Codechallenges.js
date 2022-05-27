@@ -20,10 +20,11 @@ function CodeChallenges() {
 
         <div className='list-challenges'>
 
-          <div className='list-challenges-title'>From CodingTrain: </div>
+          <div className='list-challenges-title'>my coding challenges from &nbsp;
+            <a id='linkstyle-italic' href="https://thecodingtrain.com/" target="_blank">The Coding Train.com</a> </div>
 
           <div className='list-challenges-item'>
-            <Link id= 'linkstyle' to="/rain"> rain drops with p5js</Link>
+            <Link id= 'linkstyle' to="/rain"> - rain with p5js</Link>
           </div>
 
         </div>

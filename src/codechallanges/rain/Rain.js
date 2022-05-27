@@ -9,7 +9,10 @@ import Sketch from './RainSketch'
 function Rain() {
   return (
     <div>
-      <Header />
+      <div className='header-nutral'>
+        <Header />
+      </div>
+
       <div className='calm-brackground'>
         <Sketch />
       </div>

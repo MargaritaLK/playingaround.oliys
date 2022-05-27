@@ -1,5 +1,6 @@
 body {
-  background-color: hsl(194, 85%, 21%);
+  /* background-color: hsl(194, 85%, 21%); */
+  background-color: #354f52;
   color: white;
   margin: 0;
   font-weight: 100;
@@ -22,4 +23,13 @@ code {
 #linkstyle {
   text-decoration: none;
   color: white;
+}
+
+
+#linkstyle-italic {
+    /* text-decoration: none; */
+    text-decoration: underline;
+    color: white;
+    font-style: italic;
+
 }

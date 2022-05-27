@@ -7,9 +7,8 @@ export class Drop {
     this.len = p5.map(this.z, 0, 20, 1, 4);
     this.dropsize = p5.map(this.z, 0, 20, 1.5, 2.2);
     this.color = p5.color('#5c6270');
-    this.alphavalue = 100;
+    this.alphavalue = 50;
     this.yspeed = p5.map(this.z, 0, 20, 2, 3.5);
-
   }
 
   fall(p5) {
@@ -21,16 +20,14 @@ export class Drop {
       // values back to default- needs improvement
       this.color = p5.color('#5c6270');
       this.dropsize = p5.map(this.z, 0, 20, 1, 2)
-      this.alphavalue = 100
+      this.alphavalue = 50
     }
   }
-
 
   atsea(p5) {
     let startWater = (p5.height / 9);
     if (this.y > startWater && this.y < p5.height / 2) {
       this.color = p5.color('#cfd2cf')
-      // this.color = p5.color('#fe6d73')
     }
   }
 
@@ -42,12 +39,9 @@ export class Drop {
       this.z = p5.random(10, 20)
       this.y = this.y + this.y - 1
       this.dropsize = p5.map(this.z, 0, 20, 1.5, 2)
-      this.alphavalue = 10
+      this.alphavalue = 100
     }
   }
-
-
-
 
   show(p5) {
     let color1 = this.color
@@ -56,9 +50,6 @@ export class Drop {
     p5.strokeWeight(this.dropsize)
     p5.line(this.x, this.y, this.x, this.y + this.len);
   }
-
-
-
 
 
 }

@@ -6,13 +6,15 @@
 
 
 .list-challenges-title {
-text-decoration: underline;
+/* text-decoration: underline; */
 padding: 0 0 1em 0 ;
+border-bottom: 1.2px solid white;
+width: 60%;
 
 
 }
 
 
 .list-challenges-item {
-  padding: 0.5em 0;
+  padding: 1.5em 0;
 }

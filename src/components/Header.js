@@ -7,7 +7,9 @@ function Header() {
     <div className='header'>
       <Home />
       <About/>
+      <Scheiding />
       <CodeChallenges />
+
     </div>
   )
 }
@@ -20,6 +22,13 @@ function Home() {
     </div>
   )
 }
+
+function Scheiding() {
+  return (
+    <div className='header-item'>|</div>
+  )
+}
+
 
 
 function About() {

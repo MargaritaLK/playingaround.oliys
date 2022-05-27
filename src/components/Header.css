@@ -2,9 +2,15 @@
   width: 100vw;
   height: 8vh;
   display: flex;
-  margin: 5%;
+  padding: 2% 5%;
+  background-color: #2f3e46;
 }
 
 .header-item {
   padding: 1em 1em 1em 0;
+}
+
+
+.header-nutral {
+  background-color: #2f3e46;
 }
