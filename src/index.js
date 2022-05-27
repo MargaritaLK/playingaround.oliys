@@ -5,6 +5,8 @@ import App from './App';
 import CodeChallenges from "./pages/Codechallenges";
 import About from "./pages/About";
 import Rain from "./codechallanges/rain/Rain";
+import Dragforce from "./codechallanges/dragforce/Dragforce";
+
 
 
 import {
@@ -25,6 +27,7 @@ root.render(
       <Route path="/codechallenges" element={<CodeChallenges />} />
       <Route path="/about" element={<About />} />
       <Route path="/rain" element={<Rain />} />
+      <Route path="/dragforce" element={<Dragforce />} />
     </Routes>
   </BrowserRouter>
 )

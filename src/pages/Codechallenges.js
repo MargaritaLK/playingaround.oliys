@@ -27,6 +27,10 @@ function CodeChallenges() {
             <Link id= 'linkstyle' to="/rain"> - rain with p5js</Link>
           </div>
 
+          <div className='list-challenges-item'>
+            <Link id='linkstyle' to="/dragforce"> - dragforce</Link>
+          </div>
+
         </div>
       </div>
 
