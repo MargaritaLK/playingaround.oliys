@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/playingaround.oliys/static/css/main.ddaffcf2.css",
-    "main.js": "/playingaround.oliys/static/js/main.93e8896c.js",
+    "main.css": "/playingaround.oliys/static/css/main.fb7ef45f.css",
+    "main.js": "/playingaround.oliys/static/js/main.36155ee6.js",
     "static/media/sea_dark.jpg": "/playingaround.oliys/static/media/sea_dark.7e54e88ba59e193a0b72.jpg",
     "index.html": "/playingaround.oliys/index.html",
-    "main.ddaffcf2.css.map": "/playingaround.oliys/static/css/main.ddaffcf2.css.map",
-    "main.93e8896c.js.map": "/playingaround.oliys/static/js/main.93e8896c.js.map"
+    "main.fb7ef45f.css.map": "/playingaround.oliys/static/css/main.fb7ef45f.css.map",
+    "main.36155ee6.js.map": "/playingaround.oliys/static/js/main.36155ee6.js.map"
   },
   "entrypoints": [
-    "static/css/main.ddaffcf2.css",
-    "static/js/main.93e8896c.js"
+    "static/css/main.fb7ef45f.css",
+    "static/js/main.36155ee6.js"
   ]
 }
