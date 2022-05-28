@@ -4,7 +4,7 @@ import { Mover } from "./Mover"
 
 
 let movers = [];
-let dragC = 0.1
+let dragC = 0.14
 let nr_drips1 = 800
 let smallestDrip = 2
 let lagerstDrip = 30
@@ -15,7 +15,6 @@ let heightWindow = window.innerHeight * 0.7
 
 
 export default (props) => {
-
   const setup = (p, canvasParentRef) => {
     p.createCanvas(widthWindow, heightWindow).parent(canvasParentRef);
 
@@ -30,61 +29,61 @@ export default (props) => {
         // '#61a5c2',
         '#cad2c5',
         p.random(20, 100));
-    }
-
-    for (let i = 0; i < nr_drips2; i++) {
-      movers[i] = new Mover(
-        p,
-        p.random((p.width - p.width / 2), (p.width + p.width / 2)),
-        p.random(p.height / 3),
-        p.random(1, 10),
-        '#ff0000',
-        p.random(10, 160));
-    }
-
-  };
-
-
-
-  const draw = (p) => {
-    p.background('#343a40')
-
-    // water
-    // p.fill('#005f73')
-    p.fill('#354f52')
-
-    p.noStroke()
-    p.rect(0, p.height / 2, p.width, p.height / 2)
-
-    for (let mover of movers) {
-      let gravity = p.createVector(0, 0.01)
-      // let weight = p.Vector.mult(gravity, mover.mass);
-      let weight = gravity.mult(mover.mass);
-      mover.applyForce(p, weight)
-      mover.applyForce(p , gravity)
-
-
-      if (p.mouseIsPressed) {
-        let wind = p.createVector(0.1, 0)
-        mover.applyForce(p, wind)
       }
 
-      if (mover.pos.y > p.height / 2) {
-        mover.drag(p, dragC)
-      }
+      for (let i = 0; i < nr_drips2; i++) {
+        movers[i] = new Mover(
+          p,
+          p.random((p.width - p.width / 2), (p.width + p.width / 2)),
+          p.random(p.height / 3),
+          p.random(1, 10),
+          '#ff0000',
+          p.random(10, 160));
+        }
 
-
-      mover.update(p)
-      mover.edges(p)
-      mover.show(p)
-
-    }
-
-    // p.noLoop()
-
-  };
+      };
 
 
 
-  return <Sketch setup={setup} draw={draw} />;
-};
+      const draw = (p) => {
+        p.background('#343a40')
+
+        // water
+        // p.fill('#005f73')
+        p.fill('#354f52')
+
+        p.noStroke()
+        p.rect(0, p.height / 2, p.width, p.height / 2)
+
+        for (let mover of movers) {
+          let gravity = p.createVector(0, 0.001)
+          let weight = gravity.mult(mover.mass);
+          mover.applyForce(p, weight)
+          mover.applyForce(p , gravity)
+
+
+          if (p.mouseIsPressed) {
+            let wind = p.createVector(0.1, 0)
+            mover.applyForce(p, wind)
+          }
+
+          if (mover.pos.y > p.height / 2) {
+            mover.drag(p, dragC)
+          }
+
+
+          mover.update(p)
+          mover.edges(p)
+          mover.show(p)
+
+        }
+
+        // p.noLoop()
+
+
+      };
+
+
+
+      return <Sketch setup={setup} draw={draw} />;
+    };
