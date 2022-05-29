@@ -5,4 +5,10 @@
 .abouttext{
   font-size: 12px;
   width: 70vw;
+  padding: 1em 0;
+}
+
+
+.info {
+  padding: 1em 0;
 }
