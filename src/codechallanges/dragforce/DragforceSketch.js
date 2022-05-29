@@ -14,7 +14,7 @@ let widthWindow = window.innerWidth * 0.9
 let heightWindow = window.innerHeight * 0.7
 
 
-export default (props) => {
+ const DragforceApp = (props) => {
   const setup = (p, canvasParentRef) => {
     p.createCanvas(widthWindow, heightWindow).parent(canvasParentRef);
 
@@ -87,3 +87,6 @@ export default (props) => {
 
       return <Sketch setup={setup} draw={draw} />;
     };
+
+
+export default DragforceApp

@@ -8,11 +8,13 @@ let drops = [];
 let splashdrops = [];
 let bg;
 
-let width = window.innerWidth * 0.5
-let height = window.innerHeight * 0.7
+let width = window.innerWidth * 0.8
+// let height = window.innerHeight * 0.7
+let height = window.innerWidth * 0.6
 
-export default (props) => {
 
+
+const RainApp = (props) => {
 
   const setup = (p5, canvasParentRef) => {
     p5.createCanvas(width, height).parent(canvasParentRef);
@@ -46,4 +48,8 @@ export default (props) => {
 
 
   return <Sketch setup={setup} draw={draw} />;
+
 };
+
+
+export default RainApp;
