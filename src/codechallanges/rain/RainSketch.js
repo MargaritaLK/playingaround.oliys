@@ -8,9 +8,9 @@ let drops = [];
 let splashdrops = [];
 let bg;
 
-let width = window.innerWidth * 0.8
+let width = window.innerWidth
 // let height = window.innerHeight * 0.7
-let height = window.innerWidth * 0.6
+let height = window.innerWidth
 
 
 
