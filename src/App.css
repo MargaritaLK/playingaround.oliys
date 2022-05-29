@@ -20,3 +20,8 @@
 .subtitle {
   font-size: 1.5em;
 }
+
+.horizontal-line {
+  width:  80%;
+  border: 2px solid white
+}
