@@ -8,16 +8,17 @@ let drops = [];
 let splashdrops = [];
 let bg;
 
-let width = window.innerWidth
-// let height = window.innerHeight * 0.7
-let height = window.innerWidth
+
+
+let widthCanvas= window.innerWidth *  0.8
+let heightCanvas = widthCanvas * 0.8
 
 
 
 const RainApp = (props) => {
 
   const setup = (p5, canvasParentRef) => {
-    p5.createCanvas(width, height).parent(canvasParentRef);
+    p5.createCanvas(widthCanvas, heightCanvas).parent(canvasParentRef);
     bg = p5.loadImage(sea)
     for (let i = 0; i < nrdrops; i++) {
       drops[i] = new Drop(p5);
