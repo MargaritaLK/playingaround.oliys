@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.911b1baf.css",
-    "main.js": "/static/js/main.64cf03f6.js",
+    "main.css": "/static/css/main.0d5d56ed.css",
+    "main.js": "/static/js/main.a9359e48.js",
     "static/media/sea_dark.jpg": "/static/media/sea_dark.7e54e88ba59e193a0b72.jpg",
     "index.html": "/index.html",
-    "main.911b1baf.css.map": "/static/css/main.911b1baf.css.map",
-    "main.64cf03f6.js.map": "/static/js/main.64cf03f6.js.map"
+    "main.0d5d56ed.css.map": "/static/css/main.0d5d56ed.css.map",
+    "main.a9359e48.js.map": "/static/js/main.a9359e48.js.map"
   },
   "entrypoints": [
-    "static/css/main.911b1baf.css",
-    "static/js/main.64cf03f6.js"
+    "static/css/main.0d5d56ed.css",
+    "static/js/main.a9359e48.js"
   ]
 }
