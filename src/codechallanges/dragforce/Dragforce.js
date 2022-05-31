@@ -13,9 +13,13 @@ function Dragforce() {
         <Header />
       </div>
 
-      <div className='calm-brackground'>
-        <Sketch />
+      <div className='calm-sketch-background'>
+        <div className='dragforce-sketch-container'>
+          <Sketch />
+        </div>
       </div>
+
+
 
     </div>
   );

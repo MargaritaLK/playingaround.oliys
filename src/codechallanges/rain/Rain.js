@@ -17,7 +17,6 @@ function Rain() {
         <div className='rain-sketch-container'>
           <Sketch />
         </div>
-
       </div>
 
 
