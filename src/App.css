@@ -7,13 +7,17 @@
 
 .maintitle-container {
   margin: 20vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .maintitle  {
   color: #edf2f4;
   font-size: 76px;
   font-weight: 400;
-  margin: 5vh;
+  padding: 50px 0;
 }
 
 
