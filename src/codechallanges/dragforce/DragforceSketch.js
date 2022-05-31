@@ -10,6 +10,9 @@ let smallestDrip = 2
 let lagerstDrip = 30
 let nr_drips2 = 80
 
+let loopcounter = 0
+let maxloops = 4000
+
 let widthWindow = window.innerWidth * 0.9
 let heightWindow = window.innerHeight * 0.7
 
@@ -78,10 +81,15 @@ let heightWindow = window.innerHeight * 0.7
 
         }
 
-        // p.noLoop()
+        // set max loops
+        loopcounter += 1
+        if (loopcounter == maxloops) {
+          p.noLoop()
+        }
 
 
       };
+
 
 
 
