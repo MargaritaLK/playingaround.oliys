@@ -1,0 +1,10 @@
+.calm-sketch-backrground {
+  background-color: #343a40;
+  height: 80vh;
+  width: 100%;
+  padding: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}

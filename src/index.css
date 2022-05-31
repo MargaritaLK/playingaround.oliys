@@ -34,3 +34,12 @@ code {
     font-style: italic;
 
 }
+
+
+.calm-sketch-background {
+  background-color: #343a40;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}

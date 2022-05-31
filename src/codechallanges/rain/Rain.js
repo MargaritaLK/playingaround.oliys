@@ -1,9 +1,9 @@
 
 import Header from '../../components/Header';
-import CalmBG from '../../components/CalmBG';
 import './Rain.css';
 import Sketch from './RainSketch'
 
+import '../../components/CalmSketchBG.css';
 
 
 function Rain() {
@@ -13,9 +13,14 @@ function Rain() {
         <Header />
       </div>
 
-      <div className='calm-brackground'>
-        <Sketch />
+      <div className='calm-sketch-background'>
+        <div className='rain-sketch-container'>
+          <Sketch />
+        </div>
+
       </div>
+
+
 
     </div>
   );
