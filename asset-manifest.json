@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.bed168c8.css",
-    "main.js": "/static/js/main.14658edf.js",
+    "main.js": "/static/js/main.6ab2160e.js",
     "static/media/sea_dark.jpg": "/static/media/sea_dark.7e54e88ba59e193a0b72.jpg",
     "index.html": "/index.html",
     "main.bed168c8.css.map": "/static/css/main.bed168c8.css.map",
-    "main.14658edf.js.map": "/static/js/main.14658edf.js.map"
+    "main.6ab2160e.js.map": "/static/js/main.6ab2160e.js.map"
   },
   "entrypoints": [
     "static/css/main.bed168c8.css",
-    "static/js/main.14658edf.js"
+    "static/js/main.6ab2160e.js"
   ]
 }
