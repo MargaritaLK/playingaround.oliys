@@ -21,7 +21,7 @@ function AboutText() {
       <div className='info'>.oliys.</div>
     <div className='abouttext'>
       This webpages will be a
-      collection of my tests with visuals, playing around, code challenges..
+      collection of my tests with visuals, playing around, code challenges.
         <div className='info'> twitter:
           <a id='linkstyle-italic' href="https://twitter.com/oliysart" target="_blank">@oliysart</a>
         </div>
