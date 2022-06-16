@@ -61,13 +61,6 @@ export class Mover {
     p.strokeWeight(0.1)
     p.ellipse(this.pos.x, this.pos.y, this.r * 2)
 
-
-
   }
 
 }
-
-
-// let color1 = this.color
-// color1.setAlpha(this.alphavalue);
-// p.stroke(color1);
