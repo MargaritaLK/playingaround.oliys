@@ -39,6 +39,7 @@ const RadiusflowApp = (props) => {
         p.random(10, 300)
       )
     }
+    p.background('#343a40')
 
 
   };
@@ -47,8 +48,6 @@ const RadiusflowApp = (props) => {
 
   const draw = (p) => {
     // p.background(7, 59, 76, 40)
-
-
     p.translate(p.width / 2, p.height / 2)
     p.rectMode(p.CENTER);
     p.rotate(angle);
