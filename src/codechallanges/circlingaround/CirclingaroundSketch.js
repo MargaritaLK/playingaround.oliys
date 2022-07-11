@@ -3,18 +3,22 @@ import Sketch from "react-p5";
 
 
 let angle = 0;
-let r = 200;
+
 
 
 
 let widthWindow = window.innerWidth * 0.9
 let heightWindow = window.innerHeight * 0.7
+let r = window.innerHeight * 0.3;
+
 
 let CirclingaroundApp = (props) => {
 
   const setup = (p, canvasParentRef) => {
     p.createCanvas(widthWindow, heightWindow).parent(canvasParentRef);
     p.background('#89b0ae');
+
+
 
 
   }
