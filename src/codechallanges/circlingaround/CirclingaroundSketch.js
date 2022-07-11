@@ -18,9 +18,6 @@ let CirclingaroundApp = (props) => {
     p.createCanvas(widthWindow, heightWindow).parent(canvasParentRef);
     p.background('#89b0ae');
 
-
-
-
   }
 
 
