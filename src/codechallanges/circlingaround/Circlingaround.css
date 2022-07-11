@@ -1,0 +1,9 @@
+.circlingaround-sketch-container {
+background: #89b0ae;
+  height: 80vh;
+    width: 100%;
+    padding: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
