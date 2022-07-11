@@ -9,7 +9,7 @@ let angle = 0;
 
 let widthWindow = window.innerWidth * 0.9
 let heightWindow = window.innerHeight * 0.7
-let r = window.innerHeight * 0.3;
+let r = window.innerHeight/ 4;
 
 
 let CirclingaroundApp = (props) => {
