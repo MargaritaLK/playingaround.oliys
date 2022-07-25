@@ -43,7 +43,7 @@ function About() {
 function CodeChallenges () {
   return (
     <div className='header-item'>
-      <Link id='linkstyle' to="/codechallenges">code challenges</Link>
+      <Link id='linkstyle' to="/codechallenges">experiments</Link>
     </div>
   )
 }
