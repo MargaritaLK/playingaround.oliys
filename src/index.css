@@ -28,11 +28,10 @@ code {
 
 
 #linkstyle-italic {
-    /* text-decoration: none; */
-    text-decoration: underline;
+    text-decoration: none;
+    /* text-decoration: underline; */
     color: white;
     font-style: italic;
-
 }
 
 
