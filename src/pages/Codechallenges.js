@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import Header from '../components/Header';
 import './Codechallenges.css';
+import '../components/CollectionView.css'
 
 
 function CodeChallenges() {
@@ -25,18 +26,38 @@ function CodeChallenges() {
             <a id='linkstyle-italic' href="https://twitter.com/shiffman/" target="_blank"> @shiffman </a> </div>
 
 
-          <div className='list-challenges-item'>
-            <Link id='linkstyle' to="./dragforce"> - dragforce</Link>
-          </div>
-
-          <div className='list-challenges-item'>
-            <Link id='linkstyle' to="./radiusflow"> - radius flow</Link>
-          </div>
+          <div className='collection-thumernails'>
 
 
-          <div className='list-challenges-item'>
-            <Link id='linkstyle' to="./circlingaround"> - circling  around</Link>
+
+
+              <Link to="./dragforce">
+              <div className='collection-thumernails-item'>
+                <div className='dragforce-image'></div>
+              </div>
+              </Link>
+
+
+
+            <Link to="./radiusflow">
+              <div className='collection-thumernails-item'>
+                <div className='radiusflow-image'></div>
+              </div>
+            </Link>
+
+
+            <Link to="./circlingaround">
+              <div className='collection-thumernails-item'>
+                <div className='circlingaround-image'></div>
+              </div>
+            </Link>
+
+
+
+
+
           </div>
+
 
 
 
