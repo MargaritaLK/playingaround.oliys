@@ -1,5 +1,6 @@
 
 import Header from '../../components/Header';
+import Footer from '../../components/Footer';
 // import CalmBG from '../../components/CalmBG';
 import './Dragforce.css';
 import Sketch from './DragforceSketch'
@@ -20,6 +21,7 @@ function Dragforce() {
       </div>
 
 
+    <Footer />
 
     </div>
   );

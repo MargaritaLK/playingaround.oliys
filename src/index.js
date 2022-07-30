@@ -11,6 +11,7 @@ import CodeChallenges from "./pages/Codechallenges";
 import Dragforce from "./codechallanges/dragforce/Dragforce";
 import Radiusflow from "./codechallanges/radiusflow/Radiusflow";
 import Circlingaround from "./codechallanges/circlingaround/Circlingaround";
+import Perlinnoiseflow from './codechallanges/perlinnoiseflow/Perlinnoiseflow';
 
 
 
@@ -26,6 +27,7 @@ root.render(
       <Route path="/codechallenges/dragforce" element={<Dragforce />} />
       <Route path="/codechallenges/radiusflow" element={<Radiusflow />} />
       <Route path="/codechallenges/circlingaround" element={<Circlingaround />} />
+      <Route path="/codechallenges/perlinnoiseflow" element={<Perlinnoiseflow />} />
     </Routes>
   </Router>
 )

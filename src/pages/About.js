@@ -1,14 +1,15 @@
 import Header from '../components/Header'
+import Footer from '../components/Footer';
 import './About.css'
+import '../components/Maincontainers.css'
 
 
 function About() {
   return (
     <div>
       <Header />
-      <div className='container'>
-        <AboutText />
-      </div>
+      <AboutText />
+      <Footer />
 
     </div>
   )
@@ -17,7 +18,8 @@ function About() {
 
 function AboutText() {
   return (
-    <div>
+    <div className='content-container'>
+
       <div className='info'>.oliys.</div>
     <div className='abouttext'>
       This webpages will be a

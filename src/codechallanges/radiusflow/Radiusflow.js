@@ -1,4 +1,5 @@
 import Header from '../../components/Header';
+import Footer from '../../components/Footer';
 import './Radiusflow.css';
 import Sketch from './RadiusflowSketch'
 
@@ -18,6 +19,7 @@ function Radiusflow() {
       </div>
 
 
+    <Footer />
 
     </div>
   );

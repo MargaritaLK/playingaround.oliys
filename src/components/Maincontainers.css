@@ -1,0 +1,12 @@
+.page-container {
+  min-height: 90vh;
+  width: 100vw;
+  margin: 0;
+}
+
+
+.content-container {
+  margin: 5vh 10vw 20vh 10vw;
+  height: 130vh;
+
+}

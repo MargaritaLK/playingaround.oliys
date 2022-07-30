@@ -1,5 +1,6 @@
 
 import Header from '../../components/Header';
+import Footer from '../../components/Footer';
 import './Circlingaround.css';
 import Sketch from './CirclingaroundSketch'
 
@@ -17,7 +18,7 @@ function Circlingaround() {
       </div>
 
 
-
+    <Footer />
     </div>
   );
 }
