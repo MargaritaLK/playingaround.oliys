@@ -21,9 +21,9 @@ function CodeChallenges() {
 
         <div className='list-challenges'>
 
-          <div className='list-challenges-title'>my versions of the code challanges from &nbsp;
+          <div className='list-challenges-title'>My versions of the code challanges from&nbsp;
             <a id='linkstyle-italic' href="https://thecodingtrain.com/" target="_blank">thecodingtrain.com</a> by the great
-            <a id='linkstyle-italic' href="https://twitter.com/shiffman/" target="_blank"> @shiffman </a> </div>
+            <a id='linkstyle-italic' href="https://twitter.com/shiffman/" target="_blank"> @shiffman. </a> </div>
 
 
           <div className='collection-thumernails'>
@@ -49,6 +49,13 @@ function CodeChallenges() {
             <Link to="./circlingaround">
               <div className='collection-thumernails-item'>
                 <div className='circlingaround-image'></div>
+              </div>
+            </Link>
+
+
+            <Link to="./perlinnoiseflow">
+              <div className='collection-thumernails-item'>
+                <div className='perlinnoiseflow-image'></div>
               </div>
             </Link>
 
