@@ -1,0 +1,19 @@
+
+.footer {
+  min-height: 7vh;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #343a40;
+  z-index: 1000;
+  padding: 0 5vw;
+
+}
+
+.footer-items {
+  display: flex;
+  justify-content: right;
+  /* padding: 1em 10em; */
+  padding: 1% 10vw;
+  font-size: 0.7em;
+}

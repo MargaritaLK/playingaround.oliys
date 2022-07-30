@@ -1,5 +1,6 @@
 
 import Header from '../../components/Header';
+import Footer from '../../components/Footer';
 import './Perlinnoiseflow.css';
 
 
@@ -11,7 +12,9 @@ function Perlinnoiseflow() {
         <Header />
       </div>
 
-      <div className='container'>
+      <div className='content-container '>
+
+
 
 
         <div className='collection-perlinnoiseflow'>
@@ -28,10 +31,22 @@ function Perlinnoiseflow() {
             <div className='perlinnoiseflow-image' id='imageflow3'></div>
           </div>
 
-
           <div className='collection-perlinnoiseflow-item'>
             <div className='perlinnoiseflow-image' id='imageflow4'></div>
           </div>
+
+
+
+
+
+          <div className='collection-dummy-item'>
+          </div>
+
+
+
+
+
+
 
         </div>
 
@@ -39,7 +54,7 @@ function Perlinnoiseflow() {
       </div>
 
 
-
+    <Footer />
 
     </div>
   );
