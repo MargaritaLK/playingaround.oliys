@@ -52,6 +52,17 @@
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  background-color: #89b0ae;
+  background-color: #354f52;
   background-image: url('../codechallanges/perlinnoiseflow/images/flow1.png');
+}
+
+
+.bezier-image {
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #354f52;
+  background-image: url('../codechallanges/bezier/images/bez2.png');
 }

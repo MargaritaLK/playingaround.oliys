@@ -64,6 +64,14 @@ function CodeChallenges() {
 
 
 
+            <Link to="./bezier">
+              <div className='collection-thumernails-item'>
+                <div className='bezier-image'></div>
+              </div>
+            </Link>
+
+
+
 
 
           </div>
