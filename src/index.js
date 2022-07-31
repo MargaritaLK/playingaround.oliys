@@ -12,6 +12,7 @@ import Dragforce from "./codechallanges/dragforce/Dragforce";
 import Radiusflow from "./codechallanges/radiusflow/Radiusflow";
 import Circlingaround from "./codechallanges/circlingaround/Circlingaround";
 import Perlinnoiseflow from './codechallanges/perlinnoiseflow/Perlinnoiseflow';
+import Bezier from './codechallanges/bezier/Bezier';
 
 
 
@@ -28,6 +29,7 @@ root.render(
       <Route path="/codechallenges/radiusflow" element={<Radiusflow />} />
       <Route path="/codechallenges/circlingaround" element={<Circlingaround />} />
       <Route path="/codechallenges/perlinnoiseflow" element={<Perlinnoiseflow />} />
+      <Route path="/codechallenges/bezier" element={<Bezier />} />
     </Routes>
   </Router>
 )
