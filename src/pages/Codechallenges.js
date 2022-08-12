@@ -33,18 +33,17 @@ function CodeChallenges() {
 
 
 
-
-              <Link to="./dragforce">
+            <Link to="./bezier">
               <div className='collection-thumernails-item'>
-                <div className='dragforce-image'></div>
+                <div className='bezier-image'></div>
               </div>
-              </Link>
+            </Link>
 
 
 
-            <Link to="./radiusflow">
+            <Link to="./soundcircle">
               <div className='collection-thumernails-item'>
-                <div className='radiusflow-image'></div>
+                <div className='soundcircle-image'></div>
               </div>
             </Link>
 
@@ -63,12 +62,21 @@ function CodeChallenges() {
             </Link>
 
 
-
-            <Link to="./bezier">
+              <Link to="./dragforce">
               <div className='collection-thumernails-item'>
-                <div className='bezier-image'></div>
+                <div className='dragforce-image'></div>
+              </div>
+              </Link>
+
+
+
+            <Link to="./radiusflow">
+              <div className='collection-thumernails-item'>
+                <div className='radiusflow-image'></div>
               </div>
             </Link>
+
+
 
 
 
