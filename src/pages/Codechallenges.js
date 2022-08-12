@@ -62,6 +62,8 @@ function CodeChallenges() {
             </Link>
 
 
+{/* temperaory not director acces
+
               <Link to="./dragforce">
               <div className='collection-thumernails-item'>
                 <div className='dragforce-image'></div>
@@ -75,7 +77,7 @@ function CodeChallenges() {
                 <div className='radiusflow-image'></div>
               </div>
             </Link>
-
+ */}
 
 
 
