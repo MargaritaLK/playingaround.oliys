@@ -39,6 +39,12 @@ function SoundcircleContent() {
           <div className='soundcircle-image' id='sc3'></div>
         </div>
 
+
+
+        <div className='collection-soundcircle-item'>
+          <div className='soundcircle-image' id='sc4'></div>
+        </div>
+
         <div className='collection-dummy-item'>
         </div>
 
