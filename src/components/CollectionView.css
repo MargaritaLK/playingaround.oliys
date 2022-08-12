@@ -13,7 +13,7 @@
   width: 200px;
   height: 200px;
   margin: 9px;
-  padding: 5px;
+  padding: 4px;
 }
 
 
@@ -64,5 +64,16 @@
   background-repeat: no-repeat;
   background-position: center;
   background-color: #354f52;
-  background-image: url('../codechallanges/bezier/images/bez2.png');
+  background-image: url('../codechallanges/bezier/images/bez4.png');
+}
+
+
+.soundcircle-image {
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #354f52;
+  background-image: url('../codechallanges/soundcirle/images/sc1.png');
 }

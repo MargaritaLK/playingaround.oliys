@@ -1,0 +1,39 @@
+.collection-soundcircle {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80vw;
+  height: 80vh;
+}
+
+
+.collection-soundcircle-item {
+  /* background: white; */
+  width: 30em;
+  height: 30em;
+  margin: 1em;
+  padding: 0.3em;
+}
+
+
+.soundcircle-image {
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-position: center;
+  background-color: #212529;
+  background-repeat: no-repeat;
+}
+
+
+#sc1 {
+  background-image: url('./images/sc1.png');
+}
+
+
+#sc2 {
+  background-image: url('./images/sc2.png');
+}
+
+#sc3 {
+  background-image: url('./images/sc3.png');
+}
